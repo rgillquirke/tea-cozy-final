@@ -1,0 +1,116 @@
+body {
+    font-family: Helvetica;
+    font-size: 22px;
+    color: seashell;
+    background-color: black;
+    opacity: 0.9;
+    text-align: center;
+    margin: 0;
+}
+
+.header {
+    display: block;
+    height: 69px;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    top: 0px;
+    border-bottom: 1px solid seashell;
+}
+
+.logo {
+    height: 50px;
+    padding-left: 10px;
+    float: left;
+}
+
+.navigation {
+    height: 100%;
+    float: right;
+    margin: 0 auto;
+}
+
+.navigation a {
+    display: table;
+    height: 100%;
+    padding: 0 20px;
+    float: left;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    text-decoration: underline;
+    color: white;
+}
+
+#mission {
+    display: flex;
+    background-image: url("https://content.codecademy.com/courses/freelance-1/unit-4/img-mission-background.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 700px;
+    max-width: 1200px;
+    margin: 40px auto 40px auto;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.mission-text {
+    background-color: black;
+    margin: auto;
+    width: 100%;
+}
+
+.tea {
+    max-width: 1000px;
+    display: inline-flex;
+    flex-flow: row wrap;
+    justify-content: space-evenly;
+    align-items: center;
+    align-content: center;
+    background-position: center;
+}
+
+.tea-type img {
+    height: 200px;
+    width: 300px;
+    align-self: center;
+}
+
+#location {
+    background-image: url("/Users/ruby/DevProjects/TeaCosyProject/img-locations-background.jpeg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 5px;
+}
+
+.location-title {
+    text-align: center;
+}
+
+.address {
+    display: inline-block;
+    background-color: black;
+    grid-column-start: 300px 300px 300px;
+    width: 300px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.contact {
+    height: 200px;
+}
+
+.copyright {
+    margin: 20px;
+    text-align: left;
+}
